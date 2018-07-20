@@ -1,0 +1,5 @@
+
+
+export  const KEY_GA = 'UA-122508167-1'
+export  const KEY_BANNER_BOTTOM_ADMOB = 'ca-app-pub-9710885788749277/2953740676'
+export  const KEY_VIDEO_BOTTOM_ADMOB = 'ca-app-pub-9710885788749277/4969104899'
