@@ -26,7 +26,7 @@ export default class Banner extends Component {
     AdMobInterstitial.setTestDevices([DEV_ID]);
     //AdMobInterstitial.setTestDevices([AdMobInterstitial.simulatorId]);
 
-    AdMobInterstitial.setAdUnitID("ca-app-pub-9710885788749277/9397280970");
+    AdMobInterstitial.setAdUnitID("ca-app-pub-");
 
     AdMobInterstitial.addEventListener('adLoaded',
       () => console.log('AdMobInterstitial adLoaded')
@@ -71,7 +71,7 @@ export default class Banner extends Component {
 
            <AdMobBanner
               adSize="smartBannerPortrait"
-              adUnitID="ca-app-pub-9710885788749277/1031705792"
+              adUnitID="ca-app-pub-"
 
               ref={el => (this._smartBannerExample = el)}
             />
